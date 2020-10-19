@@ -2,7 +2,7 @@
 @keyframes horizontal {
     0%{
 
-        border-left: 0px solid #fff;
+        border-left: 0px solid #ffa131;
         opacity: 0;
 
     }
@@ -12,7 +12,7 @@
     }
 
     100%{
-        border-left: 80px solid #fff;
+        border-left: 80px solid #ffa131;
     }
 }
 
@@ -128,7 +128,7 @@ body {
     font-weight: 700;
     font-size: 6vw;
     letter-spacing: 10px;
-    color: #fff;
+    color: #ffa131;
 
 }
 
@@ -186,13 +186,13 @@ body {
 }
 
 .dev{
-    color: #fff;
+    color: #ffa131;
     font-weight: 600;
 }
 
 .des {
     font-weight: 600;
-    color: #fff;
+    color: #ffa131;
 }
 
 .hl {
@@ -216,7 +216,7 @@ body {
     margin-left: 30px;
     margin-top: 40px;
     font-size: 1vw;
-    color: #fff;
+    color: #ffa131;
 }
 
 
