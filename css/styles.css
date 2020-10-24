@@ -72,6 +72,10 @@ body{
 .wrapper {
     margin-top: 3%;
 }
+.fab {
+  text-decoration: none;
+  color: #fff;
+}
 
 .wrapper .button{
     display: inline-block;
@@ -100,7 +104,7 @@ body{
     transition: all 0.3s ease-out;
   }
   .wrapper .button:nth-child(5):hover{
-    width: 220px;
+    width: 200px;
   }
   .wrapper .button:nth-child(1):hover .icon{
     background: linear-gradient(90deg,#fcaf88, #f96876);
@@ -119,8 +123,8 @@ body{
     background: linear-gradient(90deg,#fcaf88, #f96876);
   }
   .wrapper .button .icon i{
-    font-size: 25px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 30px;
     transition: all 0.3s ease-out;
   }
   .wrapper .button:hover .icon i{
@@ -144,7 +148,6 @@ body{
     -webkit-text-fill-color: transparent;
   }
   .wrapper .button:nth-child(3) span{
-      font-size: 16px;
     background: -webkit-linear-gradient(90deg,#fcaf88, #f96876);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -229,7 +232,7 @@ body{
     transition: all 0.3s ease-out;
   }
   .wrapper .button:nth-child(5):hover{
-    width: 100px;
+    width: 120px;
   }
   .wrapper .button:nth-child(1):hover .icon{
     background: linear-gradient(90deg,#fcaf88, #f96876);
@@ -247,12 +250,12 @@ body{
   .wrapper .button:nth-child(5):hover .icon{
     background: linear-gradient(90deg,#fcaf88, #f96876);
   }
-  .wrapper .button .icon i{
+  .wrapper .button .icon a{
     font-size: 25px;
     line-height: 20px;
     transition: all 0.3s ease-out;
   }
-  .wrapper .button:hover .icon i{
+  .wrapper .button:hover .icon a{
     color: #fff;
   }
   .wrapper .button span{
