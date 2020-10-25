@@ -11,9 +11,9 @@ body{
     color: #fff;
 }
 
+
 .home{
     width: 100vw;
-    position: absolute;
 }
 
 .home-content {
@@ -43,6 +43,10 @@ body{
   height: fit-content;
 }
 
+.bold{
+  font-weight: 800;
+}
+
 .dev,.des {
     background: -webkit-linear-gradient(90deg,#fcaf88, #f96876);
     -webkit-background-clip: text;
@@ -67,6 +71,12 @@ body{
 .find-on {
     margin-top: 3%;
     font-size: 20px;
+}
+
+.colored{
+
+  color: #fcaf88;
+
 }
 
 .wrapper {
@@ -158,7 +168,7 @@ body{
     -webkit-text-fill-color: transparent;
   }
 
-  .wrapper .button:nth-child(5) span{
+.wrapper .button:nth-child(5) span{
       font-size: 20px;
       font-weight: 600;
     background: -webkit-linear-gradient(90deg,#fcaf88, #f96876);
@@ -166,143 +176,41 @@ body{
     -webkit-text-fill-color: transparent;
   }
 
-@media only screen and (max-width:560px){
 
-  .home-content {
-    align-items: center;
+.about {
+  background-image: url(../img/me.png);
+  background-size: cover;
+}
+
+.about-content{
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
- 
-
-  .heading{
-    margin-top:40%;
-    margin-left: 0;
-  }
-
-  .firstName,.lastName{
-    font-size: 70px;
-    line-height: 65px;
-  }
-
-  .intro-lineone{
-    margin-top: 30px;
-  }
-
-  .intro-lineone , .intro-linetwo{
-    font-size: 20px;
-  }
-
-  .find-on{
-    font-size: 20px;
-  }
-
-  .wrapper{
-    margin-left: 0;
-    margin-top: 30px;
-  }
-
-  .wrapper .button{
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    float: left;
-    margin: 0 5px;
-    overflow: hidden;
-    background: #272f42;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-    transition: all 0.3s ease-out;
-  }
-  .wrapper .button:hover{
-    width: 100px;
-  }
-  .wrapper .button .icon{
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    border-radius: 50px;
-    box-sizing: border-box;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-  }
-  .wrapper .button:nth-child(5):hover{
-    width: 120px;
-  }
-  .wrapper .button:nth-child(1):hover .icon{
-    background: linear-gradient(90deg,#fcaf88, #f96876);
-  }
-  .wrapper .button:nth-child(2):hover .icon{
-    background: linear-gradient(90deg,#fcaf88, #f96876);
-  }
-  .wrapper .button:nth-child(3):hover .icon{
-    background: linear-gradient(90deg,#fcaf88, #f96876);
-
-  }
-  .wrapper .button:nth-child(4):hover .icon{
-    background: linear-gradient(90deg,#fcaf88, #f96876);
-  }
-  .wrapper .button:nth-child(5):hover .icon{
-    background: linear-gradient(90deg,#fcaf88, #f96876);
-  }
-  .wrapper .button .icon a{
-    font-size: 25px;
-    line-height: 20px;
-    transition: all 0.3s ease-out;
-  }
-  .wrapper .button:hover .icon a{
-    color: #fff;
-  }
-  .wrapper .button span{
-    align-items: center;
-    font-size: 10px;
-    font-weight: bold;
-    line-height: 10px;
-    margin-left: 1px;
-    transition: all 0.3s ease-out;
-  }
-  .wrapper .button:nth-child(1) span{
-    background: -webkit-linear-gradient(90deg,#fcaf88, #f96876);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .wrapper .button:nth-child(2) span{
-    background: -webkit-linear-gradient(90deg,#fcaf88, #f96876);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .wrapper .button:nth-child(3) span{
-      font-size: 5px;
-    background: -webkit-linear-gradient(90deg,#fcaf88, #f96876);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .wrapper .button:nth-child(4) span{
-    background: -webkit-linear-gradient(90deg,#fcaf88, #f96876);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .wrapper .button:nth-child(5) span{
-      font-size: 10px;
-      font-weight: 600;
-    background: -webkit-linear-gradient(90deg,#fcaf88, #f96876);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .svg-img{
-    margin-top: 50px;
-    height: 300px;
-}
-
-
 
 }
+
+.left-content{
+  margin-top: 5%;
+  width: 50%;
+  height: 90vh;
+}
+
+.about-me {
+  margin-left: 10%;
+  font-size: 60px;
+}
+.hl {
+  margin-left: 10%;
+  border-left: 6px solid green;
+  height : 10px;
+  border-left: 200px solid #fcaf88;
+  
+}
+
+.intro-text {
+  margin-left: 10%;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
 
 
