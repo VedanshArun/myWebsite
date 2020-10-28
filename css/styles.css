@@ -211,6 +211,24 @@ body{
   font-size: 20px;
   margin-top: 10%;
 }
+.arbo:link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.arbo:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+.arbo:hover{
+  padding: 5px;
+  background:linear-gradient(90deg,#fcaf88, #f96876); ;
+}
+
+.arbo:active{
+  color: #fff;
+}
 
 
 
